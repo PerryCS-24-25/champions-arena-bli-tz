@@ -4,12 +4,12 @@ import java.util.ArrayList;
 /**
  * Your champion. Change the class name, the name field, and make it yours!
  */
-public class MyChampion extends Champion {
-    public static final String NAME = "My Champion";
+public class Sigma extends Champion {
+    public static final String NAME = "Sigma";
 
-    public MyChampion() {
+    public Sigma() {
         // Create a champion with an attack of 5, a defense of 5, and max health of 40
-        super("My Champion", 5, 5, 40);
+        super("Sigma", 6, 4, 100);
     }
 
     @Override
